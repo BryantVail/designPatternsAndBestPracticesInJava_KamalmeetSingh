@@ -9,10 +9,12 @@ public class Singleton {
 		System.out.println("Singleton initiated");
 	}
 
-	public static synchronized Singleton getInstance(){
+	public static Singleton getInstance(){
 		if(instance == null){
-			instance = new Singleton();
-			return instance;
+			synchronized (Singleton.class){
+				instance = new Singleton();
+				return instance;
+			}//end synchronized block
 		}else{
 			return instance;
 		}
