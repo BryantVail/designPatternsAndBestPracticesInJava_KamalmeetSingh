@@ -1,6 +1,6 @@
-package chapter01;
+package chapter01.polymorphism;
 
-public class Car extends Vehicle{
+public class Car extends Vehicle {
 
 	private String name;
 	public Car(String name){

@@ -1,4 +1,4 @@
-package chapter01;
+package chapter01.polymorphism;
 
 public class Main {
 

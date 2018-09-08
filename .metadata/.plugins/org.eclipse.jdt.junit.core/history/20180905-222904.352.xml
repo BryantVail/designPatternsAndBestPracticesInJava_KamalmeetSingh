@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="JUnitGenericStackTest" project="week01" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="week01.JUnitGenericStackTest" time="0.003">
+    <testcase name="testGenericStack" classname="week01.JUnitGenericStackTest" time="0.003"/>
+    <testcase name="testGenericStack2" classname="week01.JUnitGenericStackTest" time="0.0"/>
+  </testsuite>
+</testrun>
