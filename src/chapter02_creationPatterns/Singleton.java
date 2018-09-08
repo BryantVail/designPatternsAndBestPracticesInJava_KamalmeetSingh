@@ -10,14 +10,18 @@ public class Singleton {
 	}
 
 	public static Singleton getInstance(){
-		if(instance == null){
-			synchronized (Singleton.class){
-				instance = new Singleton();
+		boolean flag = true;
+
+			if(instance == null){
+				synchronized (Singleton.class){
+					if(instance == null)
+						instance = new Singleton();
+						return instance;
+
+				}//end synchronized block
+			}else{
 				return instance;
-			}//end synchronized block
-		}else{
-			return instance;
-		}
+			}
 	}
 
 	public void doSomething(){
