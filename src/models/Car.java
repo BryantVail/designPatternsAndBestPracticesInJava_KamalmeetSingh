@@ -7,12 +7,14 @@ public class Car {
 	private String make;
 	private String model;
 	private int year;
+	private boolean locked;
 
 	//make, model, year
 	public Car(){
 		this.make = "";
 		this.model = "";
 		this.year = 0;
+		this.locked = false;
 	}
 
 	public double caluculatePrice(){
@@ -20,14 +22,29 @@ public class Car {
 		return 19.95;
 	}
 
-	public void lock(){
+	public boolean lock(Key key){
 		//lock
-		System.out.println("Locked Car");
+
+		if(this.locked == true){
+			System.out.println("Car already locked");
+			return false;
+
+		}else{
+			System.out.println("Car now locked");
+			return true;
+		}
 	}
 
-	public void unlock(){
+	public boolean unlock(){
 		//lock
-		System.out.println("unLocked Car");
+		if(this.locked == false){
+			System.out.println("Car already unlocked");
+			return false;
+
+		}else{
+			System.out.println("Car now unlocked");
+			return true;
+		}
 	}
 
 }
