@@ -15,9 +15,9 @@ public class VehicleFactoryWithReflection {
 		registeredProducts.put(vehicleId, vehicle);
 	}
 
-	public Vehicle createVehicle(String type) throws InstantiationException, IllegalAccessException {
-		Class productClass = registeredProducts.get(type);
-		return (Vehicle)productClass.newInstance();
+
+	public Vehicle createVehicle(String vehicleId){
+		return registeredProducts.get(vehicleId).newInstance();//polymorphism on 'newInstance()' for each class
 	}
 
 }//end VehicleFactoryWithReflection
