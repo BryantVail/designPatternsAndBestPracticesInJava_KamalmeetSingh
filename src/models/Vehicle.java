@@ -1,6 +1,6 @@
 package models;
 
-public class Vehicle {
+public abstract class Vehicle {
 	private String make;
 
 	public Vehicle(){
@@ -9,4 +9,11 @@ public class Vehicle {
 	public Vehicle(String make){
 		this.make = make;
 	}
+
+	abstract public Vehicle newInstance();
+
+
+
+
+
 }

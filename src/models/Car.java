@@ -9,6 +9,12 @@ public class Car extends Vehicle{
 	private int year;
 	private boolean locked;
 
+	//newInstance for factory
+	@Override
+	public Car newInstance(){
+		return new Car();
+	}
+
 	//make, model, year
 	public Car(){
 		this.make = "";

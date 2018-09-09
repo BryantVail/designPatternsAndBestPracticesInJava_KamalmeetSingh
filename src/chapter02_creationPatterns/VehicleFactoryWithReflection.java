@@ -7,10 +7,12 @@ import java.util.HashMap;
 
 public class VehicleFactoryWithReflection {
 
-	private Map<String, Class> registeredProducts = new HashMap<String, Class>();
+	//object map
+	private Map<String, Vehicle> registeredProducts = new HashMap<String, Vehicle>();
 
-	public void registerVehicle(String vehicleId, Class vehicleClass){
-		registeredProducts.put(vehicleId, vehicleClass);
+
+	public void registerVehicle(String vehicleId, Vehicle vehicle){
+		registeredProducts.put(vehicleId, vehicle);
 	}
 
 	public Vehicle createVehicle(String type) throws InstantiationException, IllegalAccessException {
