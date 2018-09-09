@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4020b48d-9474-4ad7-9385-f45232b6b416" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter02_creationPatterns/LockFreeSingleton.java" afterDir="false" />
-    </list>
+    <list default="true" id="4020b48d-9474-4ad7-9385-f45232b6b416" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter02_creationPatterns/LockFreeSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="68">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="24" />
               <folding>
                 <element signature="e#178#179#0" expanded="true" />
                 <element signature="e#204#205#0" expanded="true" />
@@ -231,7 +229,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536395357672" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536395375399" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -500,8 +498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter02_creationPatterns/LockFreeSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="24" />
           <folding>
             <element signature="e#178#179#0" expanded="true" />
             <element signature="e#204#205#0" expanded="true" />
