@@ -1,8 +1,12 @@
 package models;
 
 public class Vehicle {
-	private String name;
-	public Vehicle(String name){
-		this.name = name;
+	private String make;
+
+	public Vehicle(){
+		this.make = "";
+	}
+	public Vehicle(String make){
+		this.make = make;
 	}
 }

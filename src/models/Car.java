@@ -1,6 +1,6 @@
 package models;
 
-public class Car {
+public class Car extends Vehicle{
 
 	//setName(),
 
