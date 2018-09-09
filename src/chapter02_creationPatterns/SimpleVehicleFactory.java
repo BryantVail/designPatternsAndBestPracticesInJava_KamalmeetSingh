@@ -1,6 +1,8 @@
 package chapter02_creationPatterns;
 
+import models.Bike;
 import models.Car;
+import models.Truck;
 import models.Vehicle;
 
 public class SimpleVehicleFactory {
