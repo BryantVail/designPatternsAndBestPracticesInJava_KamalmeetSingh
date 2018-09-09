@@ -7,17 +7,15 @@ import java.util.HashMap;
 
 public class VehicleFactoryWithReflection {
 
-	//object map
-	private Map<String, Vehicle> registeredProducts = new HashMap<String, Vehicle>();
+	private Map<String, Class> registeredProducts = new HashMap<String, Class>();
 
-
-	public void registerVehicle(String vehicleId, Vehicle vehicle){
-		registeredProducts.put(vehicleId, vehicle);
+	public void registerVehicle(String vehicleId, Class vehicleClass){
+		registeredProducts.put(vehicleId, vehicleClass);
 	}
 
-
-	public Vehicle createVehicle(String vehicleId){
-		return registeredProducts.get(vehicleId).newInstance();//polymorphism on 'newInstance()' for each class
+	public Vehicle createVehicle(String type) throws InstantiationException, IllegalAccessException {
+		Class productClass = registeredProducts.get(type);
+		return (Vehicle)productClass.newInstance();
 	}
 
 }//end VehicleFactoryWithReflection
