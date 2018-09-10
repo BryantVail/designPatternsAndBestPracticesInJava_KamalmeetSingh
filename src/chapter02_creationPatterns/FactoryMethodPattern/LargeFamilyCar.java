@@ -1,6 +1,8 @@
 package chapter02_creationPatterns.FactoryMethodPattern;
 
-public class LargeFamilyCar {
+import models.Vehicle;
+
+public class LargeFamilyCar extends Vehicle {
 
 	private String make;
 

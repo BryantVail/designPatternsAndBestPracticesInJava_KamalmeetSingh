@@ -1,12 +1,12 @@
 package models;
 
-public class Truck extends Vehicle {
+public class TruckSmall extends Vehicle {
 
 	private String make;
 
 
 
-	public Truck(){
+	public TruckSmall(){
 		this.make = "";
 	}
 
@@ -18,7 +18,7 @@ public class Truck extends Vehicle {
 	//Inherited Methods/ Factory NewInstance
 //	@Override
 //	public Vehicle newInstance(){
-//		return new Truck();
+//		return new TruckSmall();
 //	}
 
 }
